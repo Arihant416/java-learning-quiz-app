@@ -73,4 +73,13 @@ public class Question {
     public void setOption4(String option4) {
         this.option4 = option4;
     }
+
+    public void printQuestion(){
+        System.out.println("Q. " + id + ". Question: " + this.question);
+        System.out.println("The options are: ");
+        System.out.println("1. " + option1);
+        System.out.println("2. " + option2);
+        System.out.println("3. " + option3);
+        System.out.println("4. " + option4);
+    }
 }
